@@ -1,0 +1,35 @@
+.metrica{
+    width: 100vw;
+    height: 288px;
+}
+.dadosgerais{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.metrica__dados{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 192px;
+    width: 280px;
+}
+.metrica__dados h1{
+font-size: 62px;
+color: #8E2424;
+}
+.metrica__dados h4{
+font-size: 20px;
+font-weight: bold;
+}
+.metrica__dados p{
+font-size: 16px;
+}
+.metrica__dados{
+    font-size: 18px;
+}
+#texto__informativo{
+    color:  #667085;
+}

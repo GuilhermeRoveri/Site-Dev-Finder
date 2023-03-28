@@ -1,0 +1,54 @@
+.vagas{
+    padding-left: 20px;
+  justify-content: center;
+  display: flex;
+}
+.vagas__titulo{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 32px;
+gap: 32px;
+}
+#titulo__vagas{
+    color:#8E2424;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 106px;
+    height: 500px;
+}
+.vagas__disponiveis{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-left: 25%;
+margin-top: 30px;
+gap:12px;
+}
+.dados__vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 24px 28px;
+    gap: 18px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    width: 800px;
+}
+.vagas__disponiveis2{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-left: 25%;
+margin-top: 40px;
+gap:12px;
+}
+#titulo__sub{
+    color: #667085;
+}
+#detalhes__cargo{
+    color: #667085;
+}

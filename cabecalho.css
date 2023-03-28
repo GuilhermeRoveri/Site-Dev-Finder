@@ -1,0 +1,70 @@
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 100vw;
+    height: 80px;
+    background-color: white;
+    justify-content: center;
+}
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px;
+    width: 1280px;
+    height: 44px;
+}
+.logo{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+width: 148px;
+height: 26.99px;
+color: #667085;
+}
+.elementos{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 40px;
+width: 500px;
+height: 32px;
+color: #667085;
+justify-content: space-between;
+}
+.login{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+width: 207px;
+height: 44px;
+color: #667085;
+}
+.botao{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 18px;
+gap: 8px;
+width: 112px;
+height: 44px;
+color: #ffffff;
+background: #8E2424;
+border: 1px solid #8E2424;
+border-radius: 8px;
+}
+#creditos{
+    gap: 10px;
+}
