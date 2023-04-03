@@ -9,6 +9,56 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
 
+@media only screen and (max-width: 1100px) {
+    .navegacao {
+        width: 100%;
+        display: flex;
+    }
+    .metrica{
+        width: 100%;
+    }
+    .vagas{
+        width: 80vw;
+        text-align: center;
+    }
+    .foto{
+        width: 100vw;
+    }
+    .vagas__agrupamento{
+        width: 100vw;
+    }
+    .vagas__disponiveis{
+        width: 100vw;
+    }
+    .opinioes{
+        width: 100vw;
+    }
+    .rodape{
+        width: 100vw;
+        margin-left: 10px;
+    }
+    
+}
+@media only screen and (max-width: 900px){
+    header .nav {
+        justify-content: flex-start;
+        gap: 40px;
+    }
+    nav .login {
+        display: none;
+    }
+    nav .logo {
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+    .elementos {
+        display: inline;
+        margin-top: -15px;
+        margin-left: 20px;
+    }
+}
+
+
 h1{
     font-family: inter;
 }
